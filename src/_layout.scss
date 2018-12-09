@@ -1,0 +1,103 @@
+
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+header{
+    background: linear-gradient(to right, darken($purple, 5%), $purple);
+}
+header.page-header h1 {
+    padding: 5rem 0;
+}
+section{
+    margin: 5rem 1rem;
+}
+article{
+    padding: 1rem;
+}
+
+.top-rated{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+.rated-by-admin,
+.rated-by-user{
+    background-color: $cream;
+    box-shadow: $boxshadow;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.widget-box{
+    text-align: center;
+    margin: 1rem;
+}
+
+
+
+.cat-breed-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cat-box{
+    background-color: lighten($cream, 4%);
+    margin-bottom: 5rem;
+    box-shadow: $boxshadow;
+    text-align: center;
+}
+.detail-view{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.focus-details{
+
+}
+.other-details{
+
+}
+.traits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.trait-container {
+    border: 1px solid black;
+    margin: 0.5rem;
+}
+.detail-img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.footer-items{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    text-align: center;
+    color: $white;
+    background: linear-gradient(to left, darken($purple, 5%), $purple);
+}
+@media(min-width: 800px) {
+    .cat-box {
+        flex-basis: 20%;
+    }
+    .rated-by-admin,
+    .rated-by-user {
+        flex-basis: 45%;
+    }
+}
+@media(min-width: 1245px){
+    .cat-box{
+        flex-basis: 20%;
+    }
+}

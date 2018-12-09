@@ -1,0 +1,32 @@
+.form-item{
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+input,select {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+}
+
+form{
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+}
+button.btn{
+    display: block;
+    margin: 1rem auto;
+}
+@media(min-width: 700px){
+    .form-item{
+        display: inline-block;
+        width: 120px;
+        margin: 2rem 1rem;
+    }
+}

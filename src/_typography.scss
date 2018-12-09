@@ -1,0 +1,48 @@
+nav a{
+    color: $purple;
+}
+a.nav-header {
+    padding: 0;
+}
+nav a:hover{
+    color: darken($purple, 5%);
+}
+
+header h1{
+    text-align: center;
+    font-size: 5rem;
+    padding: 10rem 0;
+    color: $white;
+}
+h2{
+    padding: 1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+section h2{
+    padding: 1rem;
+    font-size: 4rem;
+    flex-basis: 100%;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    padding: 0.5rem 1rem;
+}
+p.trait-scale{
+    font-size: 2rem;
+}
+.font-fill{
+    color: $purple;
+}
+.font-out{
+    color: $cream;
+}
+@media(min-width:768px){
+    header h1 {
+        text-align: center;
+        font-size: 5rem;
+        padding: 15rem 0;
+    }
+}
